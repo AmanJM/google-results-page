@@ -1,0 +1,187 @@
+*{
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+#viewport {
+  display: block;
+  width: 100%;
+  background-color: white;
+
+}
+#content {
+  display: block;
+  padding-top:
+  clear: both;
+}
+
+#top {
+  display: block;
+  height: 115px;
+  width: 100%;
+  border-bottom: 2px solid #f2f2f2;
+  position: relative;
+  z-index: 5
+}
+
+#top_search {
+  display: block;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+/*  top: 20px; */
+  background-color: white;
+  z-index: 10;
+}
+
+.top_search {
+  display: inline-block;
+}
+
+#account_buttons {
+  float: right;
+  margin-right: 20px;
+}
+
+#apps, #notifications {
+  padding-left: 8px;
+  height: 27px;
+  position: relative;
+  top: 9px;
+  right: 20px;
+}
+
+#google_logo {
+  margin-left: 20px;
+  padding-right: 20px;
+  height: 33px;
+  position: relative;
+  top: 12px;
+}
+
+.searchbar {
+  display: inline-block;
+  width: 620px;
+  position: relative;
+/*  bottom: 17px */
+}
+#mic {
+  height: 23px;
+  width:23px;
+  position: relative;
+  top: 7px;
+  right: 81px;
+
+}
+#searchnav {
+  width: 620 px;
+  border-radius: 20px;
+  line-height: 38px;
+  border: 2px solid #f2f2f2;
+}
+
+#mag {
+  height: 21px;
+  position: relative;
+  top: 7px;
+  right: 78px;
+  width: 33px;
+}
+#top {
+
+}
+.lnav {
+  float: left;
+  position: relative;
+  right: 30px;
+}
+.rnav {
+  float: right;
+}
+#top_nav {
+  position: relative;
+  top: 84px;
+  width: 620px;
+  margin-left: 150px;
+
+
+}
+#top_nav li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 17px;
+  color: #777;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+#center {
+  clear: both;
+  margin-left: 150px;
+  margin-right: auto;
+  width: 620px;
+}
+
+#first_result {
+  border-radius: 8px;
+  border: 2px solid #f2f2f2;
+  padding: 10px 15px;
+}
+
+#first_result h1 {
+  font-size: 16px;
+}
+#first_result h2 {
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: normal;
+}
+h2 {
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#res_num {
+  padding-left: 7px;
+}
+.link a {
+  color: #006621;
+  font-style: normal;
+  font-size: 14px;
+  position: relative;
+  bottom: 13px;
+}
+/*.link {
+  color: #006621;
+  font-style: normal;
+  font-size: 14px;
+  position: relative;
+
+} */
+
+#first_result p {
+  margin: 0 0;
+}
+.frc {
+  float: right;
+  padding-right: 4px;
+  text-decoration: none;
+  color: #777777;
+  padding-top: 3px;
+  font-size: 13px;
+}
+
+.result {
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+.result_heading {
+  margin: 0 0;
+}
+.desc {
+  position: relative;
+  bottom: 27px;
+  font-size: 14px;
+  color: #777;
+}
